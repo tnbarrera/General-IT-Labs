@@ -7,20 +7,20 @@ Practice creating and managing user accounts in Windows 10. Tasks include creati
 
 ### Step 1 Log into VM
 - Booted into Windows 10 VM with admin account (`LabUser`).  
-- ![VM Desktop](Lab1_Step1.png) 
+- ![VM Desktop](labastep1.png) 
 ### Step 2 Add New User
 - Created local user `TestUser` with password `pw123`.  
-- ![User creation](Lab1_Step2.png)
-- ![User created](Lab1_Step3.png) 
+- ![User creation](labastep2.png)
+- ![User created](labastep3.png) 
 ### Step 3 Change Account Type
 - Elevated `TestUser` to Administrator.  
 - Reverted back to Standard User.  
-- ![Account type](Lab1_Step4.png)  
+- ![Account type](labastep4.png)  
 ### Step 4 Reset Password
 - Opened **Computer Management** (`lusrmgr.msc`).  
 - Right-clicked `TestUser` → Set Password.  
 - Entered new password.  
-- ![Password reset complete](Lab1_Step5.png) 
+- ![Password reset complete](labastep5.png) 
 
 ## Outcome
 - Successfully created and managed users in a Windows 10 VM.  
@@ -30,8 +30,8 @@ Practice creating and managing user accounts in Windows 10. Tasks include creati
 ---
 
 ## Files
-- `Lab1_Step1.png`
-- `Lab1_Step2.png`  
-- `Lab1_Step3.png`  
-- `Lab1_Step4.png`  
-- `Lab1_Step5.png`  
+- `labastep1.png`
+- `labastep2.png`  
+- `labastep3.png`  
+- `labastep4.png`  
+- `labastep5.png`  
